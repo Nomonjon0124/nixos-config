@@ -29,7 +29,8 @@
   time.timeZone = "Asia/Tashkent";
 
   # Select internationalisation properties.
-  i18n.defaultLocale = "en_US.UTF-8";
+  # i18n.defaultLocale = "en_US.UTF-8";
+  i18n.defaultLocale = "uz_UZ.UTF-8";
 
   # Enable the GNOME Desktop Environment.
   services.displayManager.gdm.enable = true;
@@ -85,6 +86,7 @@
      vscode
      yandex-music
      github-cli
+     codex
      vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #   wget
      
