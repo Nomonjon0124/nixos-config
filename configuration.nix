@@ -96,15 +96,6 @@
      # GNOME kengaytmalarini boshqarish uchun qulay GUI
      gnome-extension-manager
     
-     # Jonli video fon kengaytmasi
-     #gnomeExtensions.hanabi
-    
-     # Hanabi videoni qayta ishlashi uchun zarur kodeklar (GStreamer)
-     gst_all_1.gstreamer
-     gst_all_1.gst-plugins-base
-     gst_all_1.gst-plugins-good
-     gst_all_1.gst-plugins-bad
-     gst_all_1.gst-vaapi # GPU orqali yuklamani kamaytirish uchun
      vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #   wget
      
