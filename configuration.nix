@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./haskell.nix
+      ./kitty.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -93,8 +94,10 @@
      codex
      uv
      onlyoffice-desktopeditors
+     mpv
+     ffmpeg
      # GNOME kengaytmalarini boshqarish uchun qulay GUI
-     gnome-extension-manager
+     # gnome-extension-manager
     
      vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #   wget
